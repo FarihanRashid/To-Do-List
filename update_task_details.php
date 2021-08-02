@@ -13,8 +13,6 @@ if (isset($_GET['due_date']) && isset($_GET['task_name']) && isset($_GET['id']))
 
         $update_query = "UPDATE $table_name SET task_name='$task_name', date= '$date', year= $year , month= '$month', day= '$day'  WHERE id='$id'";
         mysqli_query($db_connect, $update_query);
-
-        // header("location: index.php");
     } else {
         echo "Error in Link";
     }

@@ -162,7 +162,7 @@ if (isset($_POST['due_date']) && isset($_POST['task_name'])) {
     <a href="./delete_all_task.php" class="btn btn-danger">
         Delete All
     </a>
-    <button type=" submit" form="update_Form" class="btn btn-primary" value="update_form_btn" name="update_form_btn">
+    <button type="submit" form="update_Form" class="btn btn-primary" value="update_form_btn" name="update_form_btn">
         Update Done/Undone
     </button>
 </div>

@@ -35,9 +35,10 @@
     }
 
     $(function() {
-        $('#myTable').DataTable();
-
-        console.log($("#due_date").val());
+        $('#myTable').DataTable({
+            paging: false,
+            ordering: false
+        });
     });
 </script>
 </body>
